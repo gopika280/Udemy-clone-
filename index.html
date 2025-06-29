@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy-Online Learning Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+                <span class="logo-text">Udemy</span>
+            </div>
+            
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search for anything...">
+                <button class="search-btn"><i class="fas fa-arrow-right"></i></button>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#" class="nav-link">Categories</a>
+                <a href="#" class="nav-link">Teach</a>
+                <a href="#" class="nav-link">My Learning</a>
+                <div class="nav-icons">
+                    <a href="#" class="nav-icon"><i class="far fa-heart"></i></a>
+                    <a href="#" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#" class="nav-icon"><i class="far fa-bell"></i></a>
+                    <div class="user-avatar">U</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Expand your career opportunities with LearnHub</h1>
+            <p class="hero-subtitle">Choose from over 210,000 online video courses with new additions published every month</p>
+            <div class="hero-badge">
+                <span>NEW</span> Career Paths now available
+            </div>
+            <button class="hero-btn">Explore Courses</button>
+        </div>
+        <div class="hero-image">
+            <img src="student learning .png" alt="Students learning">
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2 class="section-title">Top categories</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <div class="category-icon design">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>Design</h3>
+                <p>3,500+ courses</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon development">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Development</h3>
+                <p>8,200+ courses</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon marketing">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>2,800+ courses</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon business">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Business</h3>
+                <p>5,600+ courses</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <div class="section-header">
+            <h2 class="section-title">Featured courses</h2>
+            <a href="#" class="see-all">See all</a>
+        </div>
+        
+        <div class="courses-grid">
+            <!-- Course 1 -->
+            <div class="course-card">
+                <div class="course-badge bestseller">Bestseller</div>
+                <img src="python learning.png" alt="Python Course">
+                <div class="course-info">
+                    <h3>The Complete Python Bootcamp From Zero to Hero</h3>
+                    <p class="instructor">Jose Portilla</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-value">4.6</span>
+                        <span class="reviews">(124,567)</span>
+                    </div>
+                    <div class="price-container">
+                        <span class="current-price">$12.99</span>
+                        <span class="original-price">$129.99</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Course 2 -->
+            <div class="course-card">
+                <div class="course-badge hot">New</div>
+                <img src="web development .png" alt="Web Development">
+                <div class="course-info">
+                    <h3>The Complete 2023 Web Development Bootcamp</h3>
+                    <p class="instructor">Dr. Angela Yu</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-value">4.7</span>
+                        <span class="reviews">(198,245)</span>
+                    </div>
+                    <div class="price-container">
+                        <span class="current-price">$13.99</span>
+                        <span class="original-price">$139.99</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Course 3 -->
+            <div class="course-card">
+                <div class="course-badge highest-rated">Highly Rated</div>
+                <img src="data science.png" alt="Data Science">
+                <div class="course-info">
+                    <h3>Data Science and Machine Learning Bootcamp</h3>
+                    <p class="instructor">Jose Portilla</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-value">4.8</span>
+                        <span class="reviews">(87,432)</span>
+                    </div>
+                    <div class="price-container">
+                        <span class="current-price">$14.99</span>
+                        <span class="original-price">$149.99</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Course 4 -->
+            <div class="course-card">
+                <img src="JavaScript .png" alt="JavaScript">
+                <div class="course-info">
+                    <h3>The Complete JavaScript Course 2023: From Zero to Expert!</h3>
+                    <p class="instructor">Jonas Schmedtmann</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-value">4.7</span>
+                        <span class="reviews">(156,789)</span>
+                    </div>
+                    <div class="price-container">
+                        <span class="current-price">$11.99</span>
+                        <span class="original-price">$119.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why LearnHub Section -->
+    <section class="why-us">
+        <h2 class="section-title">Why learn with LearnHub?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-play-circle"></i>
+                </div>
+                <h3>130,000+ online courses</h3>
+                <p>Explore a variety of fresh topics</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-infinity"></i>
+                </div>
+                <h3>Lifetime access</h3>
+                <p>Learn on your schedule</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile learning</h3>
+                <p>Learn anywhere, anytime</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Certificates</h3>
+                <p>Earn industry-recognized credentials</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2 class="section-title">What our students say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Udemy has changed my life. I went from knowing nothing about programming to landing my first developer job in just 6 months!</p>
+                    <div class="student-info">
+                        <img src="student avatar-1.png" alt="Student" class="student-avatar">
+                        <div class="student-details">
+                            <h4>Sarah Johnson</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">The quality of courses on Udemy is outstanding. I've taken many online courses, but udemy stands above the rest.</p>
+                    <div class="student-info">
+                        <img src="student avatar-2.png" alt="Student" class="student-avatar">
+                        <div class="student-details">
+                            <h4>Michael Chen</h4>
+                            <p>Data Scientist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Start learning today</h2>
+            <p>Join over 50 million learners worldwide</p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>LearnHub Business</h4>
+                    <a href="#">Teach on LearnHub</a>
+                    <a href="#">Get the app</a>
+                    <a href="#">About us</a>
+                    <a href="#">Contact us</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Careers</h4>
+                    <a href="#">Blog</a>
+                    <a href="#">Help and Support</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Investors</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Categories</h4>
+                    <a href="#">Development</a>
+                    <a href="#">Business</a>
+                    <a href="#">Design</a>
+                    <a href="#">Marketing</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+                    <span class="logo-text">Udemy</span>
+                </div>
+                <div class="copyright">© 2023 Udemy, Inc.</div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
